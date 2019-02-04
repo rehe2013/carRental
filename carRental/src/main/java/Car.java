@@ -12,7 +12,7 @@ public class Car {
     private String make;
 
     public Car(String make, String model, String vin, String color, String notes, int price,
-        int discount, float yoymaintenancecost, float depreciation, int lastweek, int yeartodate){
+        int discount, double yoymaintenancecost, double depreciation, int lastweek, int yeartodate){
         this.make = make;
         this.model = model;
         this.vin = vin;
@@ -106,10 +106,10 @@ public class Car {
     }
 
     class Metrics {
-        public float yoymaintenancecost;
-        public float depreciation;
+        public double yoymaintenancecost;
+        public double depreciation;
         public RentalCount rentalcount;
-        public Metrics (float yoymaintenancecost, float depreciation, int lastweek, int yeartodate){
+        public Metrics (double yoymaintenancecost, double depreciation, int lastweek, int yeartodate){
             this.yoymaintenancecost = yoymaintenancecost;
             this.depreciation =  depreciation;
             this.rentalcount = new RentalCount(lastweek, yeartodate);

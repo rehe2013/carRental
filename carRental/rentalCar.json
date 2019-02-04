@@ -23,6 +23,27 @@
          }
   },
   {
+    "make": "Teslas",
+    "model": "Model S",
+    "vin": "08EFGH76543JJSRZ845",
+    "metadata" : {
+      "Color" : "Blue",
+      "Notes" : "Scratches on the front side of the car"
+    },
+    "perdayrent" : {
+      "Price" : 190,
+      "Discount" : 15
+    },
+    "metrics" : {
+      "yoymaintenancecost" : 4500.76,
+      "depreciation": 3300.43,
+      "rentalcount" : {
+        "lastweek" : 2,
+        "yeartodate" : 176
+      }
+    }
+  },
+  {
      "make": "Teslas",
           "model": "Model X",
      "vin": "09ABCD64352JITEG845",
